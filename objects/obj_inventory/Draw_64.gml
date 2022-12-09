@@ -24,7 +24,11 @@ if (inventory == true) {
 		if (point_in_rectangle(x_mouse, y_mouse, slots_x, slots_y, slots_x + slot_size, slots_y + slot_size)) {
 			draw_sprite_ext(spr_selector, 0, slots_x, slots_y, scale, scale, 0, c_white, 1);
 		}
-	
+		
+		if (grid_items[# Info.Item, i] != -1) {
+			draw_sprite_ext(spr_items, grid_items[# 0, i], slots_x + 8, slots_y + 10, scale, scale, 0, c_white, 1);
+		}
+		
 		ix++;
 	
 		if (ix >= slots_h) {

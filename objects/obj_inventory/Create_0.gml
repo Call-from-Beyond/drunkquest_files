@@ -23,23 +23,25 @@ enum Drinks {
 	CanecaCervejaComum,
 	CanecaCervejaCelestial,
 	CanecaCervejaChocolate,
+	CanecaLicorFrutas,
 	CanecaCervejaGamer,
+	CanecaChampanheComum,
+	CanecaCherry,
 	CanecaSucoMacho,
 	CanecaLicorCabriola,
 	CanecaHidromelCura,
-	CanecaLeite,
-	CanecaChampanheComum,
-	CanecaChampanheRegeneracao,
-	CanecaBiritaRaio,
-	CanecaRumComum,
-	CanecaRumPulo,
-	CanecaSpirytus,
-	CanecaCachacaGolfada,
-	CanecaCherry,
+	CanecaLeiteAzedo,
 	CanecaMimosa,
+	CanecaLeite,
+	CanecaBiritaRaio,
+	CanecaChampanheRegeneracao,
+	CanecaRumPulo,
 	CanecaRaspadinha,
-	CanecaTequilaSunrise,
+	CanecaRumComum,
+	CanecaSpirytus,
 	CanecaTeleporte,
+	CanecaTequilaSunrise,
+	CanecaCachacaGolfada,
 	GridSize
 }
 
@@ -51,3 +53,17 @@ enum Info {
 
 grid_items = ds_grid_create(Info.GridSize, slots_total);
 ds_grid_set_region(grid_items, 0, 0, 1, slots_total - 1, -1);
+
+//Teste Slots # 1
+grid_items[# Info.Item, 0] = Drinks.CanecaCervejaComum;
+grid_items[# Info.Amount, 0] =  3;
+
+//Teste Slots # 2
+grid_items[# Info.Item, 1] = Drinks.CanecaTequilaSunrise;
+grid_items[# Info.Amount, 1] = 1;
+
+//Teste Slots # 3
+grid_items[# Info.Item, 2] = Drinks.CanecaBafoDragao;
+grid_items[# Info.Amount, 2] =  2;
+
+
