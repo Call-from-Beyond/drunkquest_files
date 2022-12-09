@@ -1,4 +1,4 @@
-//----- MOVIMENTAÇÃO AVANÇADA -----//
+//------ MOVIMENTAÇÃO AVANÇADA ------//
 
 if (place_meeting(x + vel_h, y, obj_colisor)) {
 

@@ -14,7 +14,7 @@ buffer = 1 * scale;
 inventory_w = sprite_get_width(spr_inventory) * scale;
 inventory_h = sprite_get_height(spr_inventory) * scale;
 
-//----- ITENS -----//
+//------ ITENS ------//
 
 enum Drinks {
 	CanecaVazia,

@@ -1,4 +1,4 @@
-//----- MOVIMENTAÇÃO E COLISÃO -----//
+//------ MOVIMENTAÇÃO E COLISÃO ------//
 
 var ground = place_meeting(x, y + 1, obj_colisor);
 var left = keyboard_check(ord("A"));
@@ -12,7 +12,7 @@ var onStairs = place_meeting(x, y, obj_interativo);
 var upStairs = false;
 
 
-//----- CONDIÇÕES -----//
+//------ CONDIÇÕES ------//
 var spike = place_meeting(x, y + 1, obj_spike);
 var time = 1;
 

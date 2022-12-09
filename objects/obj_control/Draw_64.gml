@@ -1,4 +1,4 @@
-//----- VARIÁVEIS -----//
+//------ VARIÁVEIS ------//
 
 var sprHPw = sprite_get_width(spr_health);
 var sprHPh = sprite_get_height(spr_health);
@@ -20,24 +20,24 @@ draw_text(113, 110, "FPS : " + string(fps));
 
 
 
-//----- HUD GERAL -----//
+//------ HUD GERAL ------//
 
 //draw_sprite_stretched(spr_hud, 0, 23, 20, 250, 80);
 
 
 
-//----- VIDA -----//
+//------ VIDA ------//
 
 draw_sprite_stretched(spr_health, 0, 113, 27, (sprHPw*2.5)*hp_percent, sprHPh*2.5);
 
 
 
-//----- ÁLCOOLMETRO -----//
+//------ ÁLCOOLMETRO ------//
 
 draw_sprite_stretched(spr_alcoholmeter, 0, 113, 52, (sprALCw/40)*alc_percent, sprALCh*2.5);
 
 
 
-//----- ESPECIAL -----//
+//------ ESPECIAL ------//
 
 draw_sprite_stretched(spr_power, 0, 113, 77, (sprPWRw/40)*pwr_percent, sprPWRh*2.5);

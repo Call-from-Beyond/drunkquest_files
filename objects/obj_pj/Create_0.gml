@@ -1,10 +1,10 @@
-//----- VARIÁVEIS GERAIS -----//
+//------ VARIÁVEIS GERAIS ------//
 
 //damage = 0;
 
 
 
-//----- FÍSICA -----//
+//------ FÍSICA ------//
 
 vel = 0.1;
 grav = 0.4;
@@ -18,7 +18,7 @@ vel_stairs = 6;
 damage = 10;
 
 
-//----- ATRIBUTOS -----//
+//------ ATRIBUTOS ------//
 
 //Vida
 global.hp = 100;

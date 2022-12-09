@@ -1,4 +1,4 @@
-//----- MOVIMENTAÇÃO CAMERA JOGADOR -----//
+//------ MOVIMENTAÇÃO CAMERA JOGADOR ------//
 
 if not instance_exists(cam_target) exit;
 
@@ -9,7 +9,7 @@ camera_set_view_pos(view_camera[0], x-cam_width/2, y-cam_height/4);
 
 
 
-//----- MODOS DA ROOM -----//
+//------ MODOS DA ROOM ------//
 
 var reset = keyboard_check_pressed(ord("R"));
 //var roomchange = keyboard_check_pressed(ord("C"));
@@ -18,6 +18,6 @@ if (reset) {
 	room_restart(); 
 }
 
-//if (roomchange) {
-//	room_goto_next()
-//}
+/*if (roomchange) {
+	room_goto_next()
+}*/

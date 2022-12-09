@@ -1,4 +1,4 @@
-//----- VARIÁVEIS LOCAIS -----//
+//------ VARIÁVEIS LOCAIS ------//
 var gui_w = display_get_gui_width();
 var gui_h = display_get_gui_height();
 
@@ -10,7 +10,7 @@ var inv_y = gui_h/2 - inventory_h/2;
 
 
 
-//----- ABRIR INVENTÁRIO -----//
+//------ ABRIR INVENTÁRIO ------//
 if (inventory == true) {
 	draw_sprite_ext(spr_inventory, 0, inv_x, inv_y, scale, scale, 0, c_white, 1);
 
