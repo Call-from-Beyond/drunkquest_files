@@ -1,4 +1,7 @@
 {
+  "resourceType": "GMTileSet",
+  "resourceVersion": "1.0",
+  "name": "tileset1",
   "spriteId": {
     "name": "tiles_dungeon",
     "path": "sprites/tiles_dungeon/tiles_dungeon.yy",
@@ -19,7 +22,7 @@
   "out_columns": 23,
   "tile_count": 552,
   "autoTileSets": [
-    {"tiles":[
+    {"resourceType":"GMAutoTileSet","resourceVersion":"1.0","name":"autotile_1","tiles":[
         73,
         0,
         0,
@@ -36,7 +39,7 @@
         140,
         144,
         0,
-      ],"closed_edge":false,"resourceVersion":"1.0","name":"autotile_1","tags":[],"resourceType":"GMAutoTileSet",},
+      ],"closed_edge":false,},
   ],
   "tileAnimationFrames": [],
   "tileAnimationSpeed": 15.0,
@@ -606,8 +609,4 @@
     "name": "Tile Sets",
     "path": "folders/Tile Sets.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "tileset1",
-  "tags": [],
-  "resourceType": "GMTileSet",
 }

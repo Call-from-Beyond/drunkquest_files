@@ -1,10 +1,14 @@
 {
+  "resourceType": "GMObject",
+  "resourceVersion": "1.0",
+  "name": "obj_caneca_acai",
   "spriteId": {
     "name": "spr_caneca_acai",
     "path": "sprites/spr_caneca_acai/spr_caneca_acai.yy",
   },
   "solid": false,
   "visible": true,
+  "managed": true,
   "spriteMaskId": null,
   "persistent": false,
   "parentObjectId": null,
@@ -27,8 +31,4 @@
     "name": "Drinks",
     "path": "folders/Objects/Resources/Drinks.yy",
   },
-  "resourceVersion": "1.0",
-  "name": "obj_caneca_acai",
-  "tags": [],
-  "resourceType": "GMObject",
 }

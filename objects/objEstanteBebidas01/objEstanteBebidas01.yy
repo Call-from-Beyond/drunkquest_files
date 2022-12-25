@@ -1,10 +1,10 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_caneca_vazia",
+  "name": "objEstanteBebidas01",
   "spriteId": {
-    "name": "spr_caneca_vazia",
-    "path": "sprites/spr_caneca_vazia/spr_caneca_vazia.yy",
+    "name": "spr_estanteCatiassa",
+    "path": "sprites/spr_estanteCatiassa/spr_estanteCatiassa.yy",
   },
   "solid": false,
   "visible": true,
@@ -15,7 +15,7 @@
   "physicsObject": false,
   "physicsSensor": false,
   "physicsShape": 1,
-  "physicsGroup": 0,
+  "physicsGroup": 1,
   "physicsDensity": 0.5,
   "physicsRestitution": 0.1,
   "physicsLinearDamping": 0.1,
@@ -28,7 +28,7 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "Drinks",
-    "path": "folders/Objects/Resources/Drinks.yy",
+    "name": "Forniture",
+    "path": "folders/Objects/Forniture.yy",
   },
 }
