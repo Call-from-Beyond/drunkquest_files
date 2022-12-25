@@ -15,29 +15,28 @@ var pwr_percent = (global.pwr/global.pwr_max)*100;
 //draw_text(113, 90, global.hp);
 //draw_text(113, 120, global.alcohol);
 //draw_text(113, 200, timer);
-draw_text(113, 110, "FPS : " + string(fps));
+draw_text(178, 250, "FPS : " + string(fps));
 
 
 
 
 //------ HUD GERAL ------//
 
-//draw_sprite_stretched(spr_hud, 0, 23, 20, 250, 80);
+draw_sprite_stretched(spr_hud, 0, 43, 40, 375, 120);
 
 
 
 //------ VIDA ------//
 
-draw_sprite_stretched(spr_health, 0, 113, 27, (sprHPw*2.5)*hp_percent, sprHPh*2.5);
+draw_sprite_stretched(spr_health, 0, 178, 51, (sprHPw*3.75)*hp_percent, sprHPh*3.8);
 
 
 
 //------ ÁLCOOLMETRO ------//
 
-draw_sprite_stretched(spr_alcoholmeter, 0, 113, 52, (sprALCw/40)*alc_percent, sprALCh*2.5);
-
+draw_sprite_stretched(spr_alcoholmeter, 0, 178, 90, (sprALCw/26.75)*alc_percent, sprALCh*3.8);
 
 
 //------ ESPECIAL ------//
 
-draw_sprite_stretched(spr_power, 0, 113, 77, (sprPWRw/40)*pwr_percent, sprPWRh*2.5);
+draw_sprite_stretched(spr_power, 0, 178, 125, (sprPWRw/26.75)*pwr_percent, sprPWRh*3.8);
